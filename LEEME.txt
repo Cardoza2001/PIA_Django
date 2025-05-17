@@ -1,0 +1,7 @@
+Crea una carpeta llamada PIA y copia dentro de ella el contenido del repositorio.
+Después, deberás crear tu propio entorno virtual 
+y ejecutar el siguiente comando para instalar las mismas dependencias:
+
+pip install -r requirements.txt
+
+para instalar las mismas dependencias.
