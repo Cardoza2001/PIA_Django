@@ -1,0 +1,21 @@
+# Entornos virtuales
+env/
+venv/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# Archivos de bases de datos
+*.sqlite3
+
+# Archivos de sistema
+.DS_Store
+
+# Archivos estáticos y de media (si son generados automáticamente)
+static/
+media/
+
+# Archivos del editor
+.vscode/
+.idea/
