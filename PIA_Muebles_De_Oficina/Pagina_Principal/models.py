@@ -14,6 +14,7 @@ class Sucursal(models.Model):
     ciudad = models.CharField(max_length=100)
     telefono = models.CharField(max_length=20)
     gerente = models.CharField(max_length=100)
+    codigo_postal = models.CharField(max_length=10)
 
 class Empleado(models.Model):
     nombre = models.CharField(max_length=100)
