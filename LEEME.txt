@@ -2,6 +2,30 @@ Crea una carpeta llamada PIA y copia dentro de ella el contenido del repositorio
 Después, deberás crear tu propio entorno virtual 
 y ejecutar el siguiente comando para instalar las mismas dependencias:
 
-pip install -r requirements.txt
+		"pip install -r requirements.txt"
 
 para instalar las mismas dependencias.
+
+
+ANTES DE CUALQUIER COSA AL ABRIR VISUAL CODE SEGUIR ESTOS PASOS
+
+1-ubicarse en la carpeta donde esta el entrono virtual y el repositorio en la terminal bash y ejecutar:
+
+		source env/Scripts/actívate
+
+2- después utilizando el comando: 
+
+		cd PIA_Muebles_De_Oficina/ nos ubicaremos en la carpeta del proyecto
+
+3- instalar pillow usando: 
+	
+		pip install Pillow
+
+4- ingresar en la terminal bash el comando: 
+
+		python manage.py migrate
+
+5- para verificar que todo lo anterior haya sido bien ejecutado utilizar el comando:
+
+		
+
