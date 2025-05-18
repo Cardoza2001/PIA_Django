@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Servicios</h1>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/sobre_nosotros">Sobre Nosotros</a>
+            <a href="/sucursales">Sucursales</a>
+            <a href="/contacto">Contacto</a>
+        </nav>
+    </header>
+    <section class="contenido">
+        <h2>Nuestros servicios</h2>
+        <ul>
+            <li><strong>Diseño personalizado:</strong> Creamos muebles a la medida de tus espacios y necesidades.</li>
+            <li><strong>Fabricación propia:</strong> Usamos materiales de alta calidad y procesos sustentables.</li>
+            <li><strong>Instalación profesional:</strong> Nuestro equipo técnico instala los muebles en tu oficina.</li>
+            <li><strong>Asesoría en ergonomía:</strong> Mejora la salud y productividad de tus empleados.</li>
+            <li><strong>Garantía y mantenimiento:</strong> Ofrecemos garantía de hasta 5 años y planes de mantenimiento.</li>
+        </ul>
+
+        <img src="{% static 'images/servicios_oficina.jpg' %}" alt="Servicios de muebles de oficina" class="imagen-seccion">
+    </section>
+</body>
+</html>

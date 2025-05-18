@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto y Sucursales</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Contáctanos</h1>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/sobre_nosotros">Sobre Nosotros</a>
+            <a href="/servicios">Servicios</a>
+        </nav>
+    </header>
+    <section class="contenido">
+        <h2>¿Dónde estamos?</h2>
+        <ul>
+            <li><strong>Sucursal Monterrey:</strong> Av. Constitución 1000, Centro. Tel: 81 1234 5678</li>
+            <li><strong>Sucursal CDMX:</strong> Insurgentes Sur 234, Benito Juárez. Tel: 55 2345 6789</li>
+            <li><strong>Sucursal Guadalajara:</strong> Av. Vallarta 1500. Tel: 33 3456 7890</li>
+        </ul>
+
+        <h2>Formulario de contacto</h2>
+        <form>
+            <label>Nombre:</label>
+            <input type="text" placeholder="Tu nombre"><br>
+            <label>Correo:</label>
+            <input type="email" placeholder="correo@ejemplo.com"><br>
+            <label>Mensaje:</label><br>
+            <textarea placeholder="Escribe tu mensaje aquí..."></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <img src="{% static 'images/mapa_sucursales.jpg' %}" alt="Mapa de sucursales" class="imagen-seccion">
+    </section>
+</body>
+</html>
